@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "roomApp",
+    "slug": "roomApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
