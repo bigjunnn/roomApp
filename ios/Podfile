@@ -33,6 +33,12 @@ target 'roomApp' do
   #   use_flipper!()
   # end
 
+  pod 'ReactNativeCameraKit', :path => '../node_modules/react-native-camera-kit'
+
+  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+
   post_install do |installer|
     react_native_post_install(installer)
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
